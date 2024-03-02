@@ -26,10 +26,14 @@ To get this project up and running on your local machine, follow these steps:
 3. **Install Composer dependencies**:
 
     ```bash
+    composer update
+    ```
+    Or:
+   
+    ```bash
     composer install
     ```
-
-4. **Copy the example environment file and configure it**:
+5. **Copy the example environment file and configure it**:
 
     ```bash
     cp .env.example .env
