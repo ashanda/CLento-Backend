@@ -53,8 +53,8 @@ To get this project up and running on your local machine, follow these steps:
     ```bash
     php artisan passport:keys
     ```
-9.**Run Server**
-
+9. **Run Server**:
+    
     ```bash
     php artisan serve
     ```
