@@ -48,8 +48,13 @@ To get this project up and running on your local machine, follow these steps:
     php artisan migrate
     ```
 
-8. *(Optional)* **Generate passport key**:
+8. **Generate passport key**:
 
     ```bash
     php artisan passport:keys
+    ```
+9.**Run Server**
+
+    ```bash
+    php artisan serve
     ```
