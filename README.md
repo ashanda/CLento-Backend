@@ -1,4 +1,4 @@
-# Laravel Project Title
+# API Service
 
 This is a Laravel project that [briefly describe what your project does and its purpose].
 
@@ -6,8 +6,6 @@ This is a Laravel project that [briefly describe what your project does and its 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -16,13 +14,13 @@ To get this project up and running on your local machine, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/your-project.git
+    git clone https://github.com/ashanda/CLento-Backend.git
     ```
 
 2. **Navigate to the project directory**:
 
     ```bash
-    cd your-project
+    cd CLento-Backend
     ```
 
 3. **Install Composer dependencies**:
@@ -36,21 +34,22 @@ To get this project up and running on your local machine, follow these steps:
     ```bash
     cp .env.example .env
     ```
-
-5. **Generate the application key**:
+    add .env custome variable API_VERSION=v1
+   
+6. **Generate the application key**:
 
     ```bash
     php artisan key:generate
     ```
 
-6. **Run the database migrations**:
+7. **Run the database migrations**:
 
     ```bash
     php artisan migrate
     ```
 
-7. *(Optional)* **Seed the database with sample data**:
+8. *(Optional)* **Generate passport key**:
 
     ```bash
-    php artisan db:seed
+    php artisan passport:keys
     ```
